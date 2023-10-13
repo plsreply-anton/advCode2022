@@ -1,7 +1,12 @@
 import sys
 
 def main():
-    textFile = sys.argv[1]
+    if len(sys.argv) < 2:
+        print("No input file specified, falling back to: day1Input.txt")
+        textFile = "day1Input.txt"
+    else: 
+        textFile = sys.argv[1]
+        
     topThree = [0,0,0]
     with open(textFile, "r") as file:
         count = 0 
@@ -21,7 +26,6 @@ def main():
     print(f"Elfs with most calories have in total: {topThree[0]+topThree[1]+topThree[2]} cal.")
 
 if __name__ == "__main__":
-
     main()
 
     
