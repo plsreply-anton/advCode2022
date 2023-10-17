@@ -1,2 +1,12 @@
 # advCode2022
-This repo is intended for Advent of Code 2022. Basically a year late on the ball :):):)
+
+| Day | Language |
+| --- | --- |
+| 1 | Python |
+| 2 | Python |
+| 3 | Rust |
+| 4 | Java |
+| 5 | Ruby |
+| 6 | C++ |
+| 7 | JavaScript |
+| 8 | C |
